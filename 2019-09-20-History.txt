@@ -1,0 +1,366 @@
+    1  sudo apt install gcc make perl
+    2  sudo ./VBoxLinuxAdditions.run
+    3  ls dr
+    4  ls dir
+    5  history
+    6  -p 1/2/3/4/5
+    7  ls -la
+    8  ln /etc/passwd copy_passwd
+    9  touch file_for_link
+   10  ls la
+   11  ls -la
+   12  ln file_for_linl hard link
+   13  ln file_for_link hard link
+   14  ls -lai file_for_link hard link
+   15  ln file_for_link hard link
+   16  la
+   17  cd Desktop
+   18  touch file_for_link
+   19  ln -lai file_for_link hard link
+   20  ls -lai file_for_link hard link
+   21  rm hard link
+   22  ln -s file_for_link soft link
+   23  ln -s file_for_link soft_link
+   24  ls -lai file_for_link soft_link
+   25  rm file_for_link
+   26  ls -lai soft_link
+   27  ln file_for_link hard_link
+   28  ls -lai soft_link hard_link
+   29  touch file_for_link
+   30  ln file_for_link hard_link
+   31  ln -s /temp siuksles
+   32  cd siuksles
+   33  man more
+   34  cp -iv /etc/passwd copy_passwd
+   35  more copy_passwd
+   36  less copy_passwd
+   37  cat copy_password file_for_link
+   38  cat >my_file
+   39  cat my_file
+   40  cat
+   41  ps -u root > root_process.txt
+   42  systemctl status sshd
+   43  sudo apt install openssh-server
+   44  systemctl status sshd
+   45  sudo systemctl stop sshd
+   46  systemctl status sshd
+   47  sudo nano /etc/ssh/sshd_config
+   48  ip a
+   49  sudo systemctl start sshd
+   50  sudo nano /etc/ssh/sshd_config
+   51  sudo systemctl start sshd
+   52  systemctl status sshd
+   53  sudo nano /etc/ssh/sshd_config
+   54  sudo systemctl stop sshd
+   55  sudo nano /etc/ssh/sshd_config
+   56  y
+   57  sudo systemctl start  sshd
+   58  sudo systemctl start sshd
+   59  ip a
+   60  sudo systemctl status
+   61  who
+   62  ls
+   63  ps aux | grep pts
+   64  sudo nano /etc/ssh/sshd_config
+   65  status apache2
+   66  systemctl status apache2
+   67  sudo apt install apache2
+   68  sudo systemctl stop apache2
+   69  systemctl status apache2
+   70  sudo systemctl stop apache2
+   71  systemctl status apache2
+   72  sudo nano /etc/apache2/apache2.conf
+   73  sudo nano /etc/apache2/ports.conf
+   74  sudo nano /etc/apache2/envvars
+   75  less /var/html
+   76  ls /var /www
+   77  sudo mkdir /var/www/mysite
+   78  sudo nano /var/www/mysite/index.html
+   79  sudo cp /etc/apache2/sties-available/000-default.conf /etc/apache2/sites-available/mysite.conf
+   80  sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/mysite.conf
+   81  ls -l /etc/apache2/sites-enabled
+   82  locate history
+   83  history
+   84  history > history3.txt
+   85  leaf pad
+   86  sudo nano /etc/apache2/sites-available/mysite.comf
+   87  sudo nano /etc/apache2/sites-available/mysite.conf
+   88  sudo a2ensite mysite.conf
+   89  sudo systemctl restart apache2
+   90  sudo nano /etc/apache2/sites-available/mysite.conf
+   91  sudo systemctl restart apache2
+   92  sudo apt install mariadb-server
+   93  systemctl status mariadb.service
+   94  sudo mysql_secure_instalation
+   95  sudo mysql_secure_installation
+   96  sudo systemctl restart mariadb
+   97  sudo -p -u root
+   98  mysql -p -u root
+   99  systemctl status maria db
+  100  systemctl status mariadb
+  101  sudo apt install php
+  102  sudo nano /var/www/mysite/index.html
+  103  sudo apt install php libapache2-mod-php
+  104  sudo apt install php-mysql
+  105  sudo nano /var/www/mysite/index.html
+  106  sudo mv /var/www/mysite/index.html /var/www/mysite/index.php
+  107  sudo mysql -p -u root
+  108  SHOW DATABASES
+  109  sudo mysql -p -u root
+  110  sudo nano /etc/apache2/apache2.conf
+  111  systemctl status apache2
+  112  sudo apt install tomcat9
+  113  system status tomcat9
+  114  sudo apt install tomcat9*
+  115  sudo nano /etc/tomcat9/tocat-users.xml
+  116  sudo nano /etc/tomcat9/tomcat-users.xml
+  117  sudo systemctl restart apache2
+  118  sudo systemctl restart tomcat9
+  119  sudo nano /etc/tomcat9/tomcat-users.xml
+  120  sudo systemctl restart apache2
+  121  sudo systemctl restart tomcat9
+  122  sudo nano /etc/tomcat9/tomcat-users.xml
+  123  sudo systemctl restart apache2
+  124  sudo systemctl restart tomcat9
+  125  sudo nano /etc/tomcat9/tomcat-users.xml
+  126  sudo systemctl restart apache2
+  127  sudo systemctl restart tomcat9
+  128  sudo nano /etc/tomcat9/tomcat-users.xml
+  129  sudo systemctl restart apache2
+  130  sudo systemctl restart tomcat9
+  131  sudo nano /etc/tomcat9/tomcat-users.xml
+  132  sudo apt install phpmyadmin
+  133  history > history2.txt
+  134  nano furst.sh
+  135  ls -la
+  136  bash first.sh
+  137  bash furst.sh
+  138  mkdir Bandymas
+  139  cd Bandymas/
+  140  touch failas1 failas2 failas3
+  141  ls
+  142  cd ..
+  143  touch /Bandymas/f1.txt f2.txt f3.txt f4.txt ff1.txt ff2.txt ff3.txt ff4.txt
+  144  mv f2.txt f3.txt f4.txt ff1.txt ff2.txt ff3.txt ff4.txt /Bandymas
+  145  ls
+  146  cd Bandymas
+  147  ls
+  148  cd
+  149  mv f2.txt /Bandymas
+  150  sudo mv f2.txt /Bandymas
+  151  locate f2
+  152  locate f2.txt
+  153  find f2.txt
+  154  mv f3.txt /Bandymas
+  155  mv f3.txt Bandymas
+  156  mv f4.txt Bandymas
+  157  mv ff1.txt Bandymas
+  158  mv ff2.txt Bandymas
+  159  mv ff3.txt Bandymas
+  160  mv ff4.txt Bandymas
+  161  cd Bandymas
+  162  ls
+  163  touch f1.txt f2.txt
+  164  rm failas1 failas2 failas3
+  165  ls
+  166  mkdir /home/Tikslas
+  167  mkdir home/Tikslas
+  168  cd 
+  169  mkdir Tikslas
+  170  cp Bandymas/f1.txt Tikslas/
+  171  cp Bandymas/f2.txt Tikslas/
+  172  cp Bandymas/f3.txt Tikslas/
+  173  cp Bandymas/ff2.txt Tikslas/
+  174  cp Bandymas/ff4.txt Tikslas/
+  175  cd Tikslas
+  176  rm f2.txt
+  177  ls
+  178  mv f*.txt file*.txt
+  179  mv f*.txt Tikslas/file*.txt
+  180  mv f1.txt file1.txt
+  181  mv f3.txt file3.txt
+  182  mv ff2.txt ffile2.txt
+  183  mv ff4.txt ffile4.txt
+  184  cp /etc passwd Bandymas
+  185  locate .etc
+  186  find /etc
+  187  cp /etc/passwd /home/algimantas/Bandymas 
+  188  ls passwd
+  189  cat passwd
+  190  ls
+  191  cat /Bandymas/passwd
+  192  cat /home/algimantas/Bandymas/passwd
+  193  grep root /home/algimantas/Bandymas/passwd
+  194  grep -R root /home/algimantas/Bandymas/passwd
+  195  grep -R root /home/algimantas/Bandymas/passwd -print
+  196  wc -c < passwd
+  197  wc -c < /home/algimantas/Bandymas/passwd
+  198  wc -c /home/algimantas/Bandymas/passwd
+  199  wc /home/algimantas/Bandymas/passwd
+  200  cd
+  201  cd /Bandymas
+  202  ls
+  203  cd Bandymas
+  204  cat -n5 passwd
+  205  cat head -n5 passwd
+  206  cd
+  207  sudo nano /etc/tomcat9/tomcat-users.xml
+  208  cat head -n5 passwd
+  209  ls
+  210  cd /Bandymas
+  211  cd Bandymas
+  212  head -n5 passwd
+  213  touch f{1,4}.txt
+  214  touch fff{1,4}.txt
+  215  rm fff{1,4}.txt
+  216  touch fff{1,4}.txt ffff{1,4}.txt
+  217  rm fff{1,4}.txt ffff{1,4}.txt
+  218  ls Bandymas
+  219  ls /Bandymas
+  220  ls
+  221  sudo nano /etc/apache2/apache2.conf
+  222  $$
+  223  cd
+  224  $$
+  225  echo $$
+  226  ps
+  227  nc
+  228  mc
+  229  sudo apt install mc
+  230  mc
+  231  sudo adduser exam-avizgirda
+  232  cd /home
+  233  mkdir exam
+  234  sudo mkdir exam
+  235  sudo chown exam-avizgirda:exam-avizgirda /home/exam
+  236  sudo chmod 700 /home/exam
+  237  usermode --home /home/exam exam-avizgirda
+  238  usermod --home /home/exam exam-avizgirda
+  239  sudo usermod --home /home/exam exam-avizgirda
+  240  sudo usermod -g users exam-avizgirda
+  241  id exam-avizgirda
+  242  sudo usermod -G video, audio, cdrom, java, testing exam-avizgirda  
+  243  sudo usermod -a -G video, audio, cdrom, java, testing exam-avizgirda  
+  244  less /etc/group
+  245  egrep -i "^java" /etc/group
+  246  egrep -i "^testing" /etc/group
+  247  sudo usermod -a -G video,audio,cdrom,java,testing exam-avizgirda  
+  248  sudo groupadd java 
+  249  sudo groupadd testing
+  250  sudo usermod -a -G video,audio,cdrom,java,testing exam-avizgirda  
+  251  whereis bash
+  252  sudo usermod -s /bin/bash exam-avizgirda
+  253  sudo passwd exam-avizgirda
+  254  sudo usermod -a -G sudo,lp exam-avizgirda  
+  255  id exam-avizgirda
+  256  su- exam-avizgirda
+  257  su - exam-avizgirda
+  258  version]
+  259  version
+  260  java version
+  261  java -version
+  262  sudo add-apt -repository ppa:webupd8team/java 
+  263  sudo add -apt -repository ppa:webupd8team/java 
+  264  sudo add-ap -repository ppa:webupd8team/java 
+  265  sudo add-app-repository ppa:webupd8team/java 
+  266  sudo apt remote openjdk-11-jre-headless
+  267  sudo apt remove openjdk-11-jre-headless
+  268  sudo mkdir /usr/lib/jvm
+  269  ls
+  270  cd downloads
+  271  cd Downloads
+  272  ls
+  273  sudo tar -zxvf jdk-8u221-linux-x64.tar.gz -C /usr/lib/jvm/
+  274  ls /usr/lib/jvm
+  275  sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_221/bin/java 3
+  276  sudo update-alternatives --config java
+  277  java -version
+  278  sudo apt install git
+  279  git --version
+  280  javac
+  281  sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.8.0_221/bin/java 3
+  282  javac
+  283  sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.8.0_221/bin/javac 3
+  284  jaca -version
+  285  java -version
+  286  javac -version
+  287  sudo update-alternatives --install /usr/bin/jar jar /usr/lib/jvm/jdk1.8.0_221/bin/jar 3
+  288  sudo update-alternatives --install /usr/bin/javadoc javadoc /usr/lib/jvm/jdk1.8.0_221/bin/javadoc 3
+  289  sudo update-alternatives --install /usr/bin/javah javah /usr/lib/jvm/jdk1.8.0_221/bin/javah 3
+  290  sudo update-alternatives --install /usr/bin/javap javap /usr/lib/jvm/jdk1.8.0_221/bin/javap 3
+  291  sudo update-alternatives --install /usr/bin/jdb jdb /usr/lib/jvm/jdk1.8.0_221/bin/jdb 3
+  292  sudo update-alternatives --install /usr/bin/jdeps jdeps /usr/lib/jvm/jdk1.8.0_221/bin/jdeps 3
+  293  sudo apt install maden
+  294  java -version
+  295  sudo apt install tomcat9
+  296  java -version
+  297  sudo update-alternatives --config java
+  298  java -version
+  299  mdir git
+  300  sudo mkir git
+  301  sudo mkdir git
+  302  pwd
+  303  cd git
+  304  ls -la
+  305  git status
+  306  git init
+  307  ls -la
+  308  git init
+  309  ls
+  310  cd
+  311  ls
+  312  cd /Desktop
+  313  cd Desktop
+  314  sudo mkdir git
+  315  git init
+  316  git congit --list
+  317  git config --list
+  318  git config --global user.name "AV"
+  319  git config --global user.name "Algimantas Vizgirda"
+  320  git config --global user.email "Algimantas.Vizgirda.gmail.com"
+  321  git config --global --list
+  322  git config --system --list
+  323  git config --local --list
+  324  git status
+  325  cd git
+  326  git status
+  327  touch README.md
+  328  git config --global user.name "Algimantas Vizgirda"
+  329  git config --global user.email "Algimantas.Vizgirda.gmail.com"
+  330  git config --global --list
+  331  git config --system --list
+  332  git config --local --list
+  333  git status
+  334* 
+  335* git stat
+  336  git init
+  337  sudo chmod a-wrx .
+  338  git init
+  339  ls -la
+  340  git init
+  341  ls -l Desktop
+  342  ls -la
+  343  history > ../2019-09-20-Istorija.txt
+  344  ls -la
+  345  ls -la .
+  346  sudo ls -la .
+  347  sudo chown algimantas .
+  348  sudo chgrp algimantas .
+  349  sudo ls -la .
+  350  ls -la
+  351  history
+  352  sudo ls -la .
+  353  sudo chmod 777 .
+  354  sudo ls -la .
+  355  ls -la
+  356  git status
+  357  git init
+  358  git config --list
+  359  git config --global user.name "Algimantas Vizgirda"
+  360  git config --global user.email "Algimantas.Vizgirda.gmail.com"
+  361  git config --global --list
+  362  git config --system --list
+  363  git config --local --list
+  364  git add README.md
+  365  touch README.md
+  366  history > 2019-09-20-History.txt
